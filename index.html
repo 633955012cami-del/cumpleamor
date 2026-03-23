@@ -50,7 +50,7 @@ button {
 }
 
 button:hover {
-  background: #a52b4d;
+  background: #8a18f5;
 }
 
 .emoji {
@@ -66,7 +66,7 @@ button:hover {
 
 .typed {
   display: inline;
-  border-right: 2px solid #d6336c;
+  border-right: 2px solid #8a18f5;
   white-space: pre-wrap;
   overflow-wrap: break-word;
 }
@@ -179,9 +179,10 @@ button:hover {
   <button onclick="mostrarPaso(5); iniciarGlobos();">Final</button>
 </div>
 
-<!-- Paso 5 (FUERA correctamente) -->
+<!-- Paso 5  -->
 <div class="card" id="paso5">
   <h2>❤️</h2>
+  <h2> FELIZ CUMPLE AMORCITO🥰</h2>
   <img src="nosotros.png" alt="Nosotros" id="foto-final" style="display:block; opacity:1;">
   <div id="globos-container"></div>
 </div>
@@ -244,7 +245,7 @@ function crearGlobo() {
 
   globo.style.left = Math.random() * 100 + "vw";
 
-  const colores = ["#ff4d6d", "#ff85a1", "#ffc2d1", "#ffd6a5"];
+  const colores = ["#2448eb", "#ff85a1", "#ffc2d1", "#8a18f5"];
   globo.style.background = colores[Math.floor(Math.random() * colores.length)];
 
   document.getElementById("globos-container").appendChild(globo);
